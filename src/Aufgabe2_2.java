@@ -16,21 +16,21 @@ public class Aufgabe2_2 {
         int luckyNumber = 3;
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        System.out.println("my lucky number is " + luckyNumber);
-        System.out.println("the input number " + number);
+        System.out.println("My lucky number is " + luckyNumber);
+        System.out.println("The input number is " + number);
         if (number % 10 == 0) {
-            System.out.println("the number is round");
+            System.out.println("The number is round!");
         }
         if (number % 2 == 0) {
-            System.out.println("the number is even");
+            System.out.println("The number is even!");
         } else if (number % 2 > 0 || number % 2 < 0) {
-            System.out.println("the number is odd");
+            System.out.println("The number is odd!");
         }
         if (number == luckyNumber) {
-            System.out.println();
+            System.out.println("The input number is my lucky number!");
         }
         if (number >= 10 && number <= 100 || number <= -10 && number >= -100) {
-            System.out.println("the number does have two digits");
+            System.out.println("The number does have two digits!");
         }
     }
 }
