@@ -23,13 +23,13 @@ public class Aufgabe2_2 {
         }
         if (number % 2 == 0) {
             System.out.println("the number is even");
-        } else if (number % 2 > 0) {
+        } else if (number % 2 > 0 || number % 2 < 0) {
             System.out.println("the number is odd");
         }
         if (number == luckyNumber) {
             System.out.println();
         }
-        if (number >= 10) {
+        if (number >= 10 && number <= 100 || number <= -10 && number >= -100) {
             System.out.println("the number does have two digits");
         }
     }
