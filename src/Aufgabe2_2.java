@@ -23,7 +23,7 @@ public class Aufgabe2_2 {
         }
         if (number % 2 == 0) {
             System.out.println("The number is even!");
-        } else if (number % 2 > 0 || number % 2 < 0) {
+        } else {
             System.out.println("The number is odd!");
         }
         if (number == luckyNumber) {
